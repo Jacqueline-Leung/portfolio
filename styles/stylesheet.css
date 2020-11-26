@@ -1,31 +1,12 @@
-/* Color palette
-https://colours.neilorangepeel.com/
-#FFE4C4 - bisque
-#FFE4E1 - mistyrose
-#5F9EA0 - cadetblue
-#556B2F - darkolivegreen
-#7FFFD4 - aquamarine
-#BDB76B - darkkhaki
-#2F4F4F - darkslategrey
-#800000 - maroon
-#FFF5EE - seashell
-#008B8B - darkcyan
-#E0FFFF - lightcyan
-#FF6347 - tomato
-#FF8C00 - darkorange
-#483D8B - darkslateblue
-
-----------------------*/
-
 /* Global styles...........*/
 body{
-  background: seashell
+  background: seashell;
   }
 header{
   background-color: darkcyan;
   }
 section{
-  background-color: mistyrose
+  background-color: mistyrose;
 }
 footer{
   background-color: aquamarine;
@@ -37,18 +18,28 @@ footer p{
   font-size: 80px;
 }
 h1{
-  color:aquamarine;
+  color: #F8F9C4;
 }
 h2{
   color:maroon;
-  font-size: 14px;
 }
 h3{
-  color: darkgrey
-  font-size: 13px;
+  color: darkolivegreen;
+}
+.intro h3{
+  color: lightgreen;
+}
+h4{
+  color: darkmagenta;
 }
 p{
-  color: darkkhaki
+  color: darkkhaki;
+}
+li{
+  color: midnightblue;
+}
+a:{
+  color: gold; /*this doesn't work*/
 }
 a:visited{
   color: violet;
@@ -62,32 +53,40 @@ a:active{
 a:focus{
   outline: 2px solid limegreen;
 }
-/*
-img{
-  padding:mistyrose
-}
-a{
-  color:
-}
-a:hover{
-  text-decoration: none;
-}
-h1 h2 h3{
-  color:darkolivegreen
-}
-p{
-  color: #2F4F4F
-}
-*/
+
 /*Home page main content
 ..................................*/
 .intro{
   background-color: purple
 }
-
+.main-page-content h3 a{
+  color: silver;
+  background-color: rgb(220,20,60);
+  padding: 3px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.main-page-content h3 a:hover{
+  background-color: rgba(220,20,60, 70%);
+  outline: none;
+  text-decoration: none;
+}
 
 /*About me
 ...................................*/
 
 /*Semantic elements
 -----------------------------------*/
+.intro h2{
+  color: honeydew;
+}
+.serving-ideas{
+  color: darkcyan;
+}
+.bible{
+  background-color: darksalmon;
+  color: papayawhip;
+}
+p .bible{
+  color: papayawhip;
+}
