@@ -1,6 +1,93 @@
+/* Color palette
+https://colours.neilorangepeel.com/
+#FFE4C4 - bisque
+#FFE4E1 - mistyrose
+#5F9EA0 - cadetblue
+#556B2F - darkolivegreen
+#7FFFD4 - aquamarine
+#BDB76B - darkkhaki
+#2F4F4F - darkslategrey
+#800000 - maroon
+#FFF5EE - seashell
+#008B8B - darkcyan
+#E0FFFF - lightcyan
+#FF6347 - tomato
+#FF8C00 - darkorange
+#483D8B - darkslateblue
+
+----------------------*/
+
+/* Global styles...........*/
+body{
+  background: seashell
+  }
+header{
+  background-color: darkcyan;
+  }
+section{
+  background-color: mistyrose
+}
+footer{
+  background-color: aquamarine;
+}
+footer p{
+  color:maroon;
+}
+#page-title{
+  font-size: 80px;
+}
 h1{
-  color: blue
+  color:aquamarine;
+}
+h2{
+  color:maroon;
+  font-size: 14px;
+}
+h3{
+  color: darkgrey
+  font-size: 13px;
 }
 p{
-  color: green
+  color: darkkhaki
 }
+a:visited{
+  color: violet;
+}
+a:hover{
+  color: white;
+}
+a:active{
+  color: darkorange;
+}
+a:focus{
+  outline: 2px solid limegreen;
+}
+/*
+img{
+  padding:mistyrose
+}
+a{
+  color:
+}
+a:hover{
+  text-decoration: none;
+}
+h1 h2 h3{
+  color:darkolivegreen
+}
+p{
+  color: #2F4F4F
+}
+*/
+/*Home page main content
+..................................*/
+.intro{
+  background-color: purple
+}
+
+
+/*About me
+...................................*/
+
+/*Semantic elements
+-----------------------------------*/
