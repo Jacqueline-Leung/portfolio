@@ -1,12 +1,17 @@
 /* Global styles...........*/
 body{
-  background: seashell;
-  }
+  background: rgb(153, 51, 102);
+  margin: 0;
+  padding: 0;
+}
 header{
   background-color: darkcyan;
+  padding: 10px;
   }
 section{
   background-color: mistyrose;
+  margin: 0;
+  padding: 10px;
 }
 footer{
   background-color: aquamarine;
@@ -16,42 +21,79 @@ footer p{
 }
 #page-title{
   font-size: 80px;
+  font-family: 'Italianno', cursive;
+  display: inline-block;
+  margin-top:0;
+  margin-bottom: 0;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 10px;
 }
 h1{
   color: #F8F9C4;
+  font-family: 'Playfair Display', serif;
+  font-size: 180%;
+  font-weight: bold;
 }
 h2{
   color:maroon;
+  font-family: 'Playfair Display', serif;
+  font-size: 160%;
+  font-weight: bolder;
 }
 h3{
   color: darkolivegreen;
+  font-family: 'Roboto', sans-serif;
+  font-size: 140%;
 }
 .intro h3{
   color: lightgreen;
+  font-family: 'Roboto', sans-serif;
+  font-size: 140%;
 }
 h4{
   color: darkmagenta;
+  font-family: 'Roboto', sans-serif;
+  font-size: 120%;
 }
 p{
   color: darkkhaki;
+  font-family: 'EB Garamond', serif;
+  font-size: 110%;
 }
 li{
   color: midnightblue;
+  font-family: 'EB Garamond', serif;
+  font-size: 100%;
 }
-a:{
-  color: gold; /*this doesn't work*/
+footer p{
+  font-family: 'Italianno', cursive;
+  font-size: 160%;
 }
-a:visited{
-  color: violet;
+aside{
+  margin: 0;
+  padding: 10px;
+}
+a{
+  color: gold;
+  font-family: 'EB Garamond', serif;
+  font-size: 110%;
 }
 a:hover{
   color: white;
+  font-size: 110%;
 }
 a:active{
   color: darkorange;
+  font-size: 110%;
 }
 a:focus{
   outline: 2px solid limegreen;
+  font-size: 110%;
+}
+img{
+  border: 2px solid rgb(255, 255, 153);
+  width: 20%;
 }
 
 /*Home page main content
@@ -62,14 +104,19 @@ a:focus{
 .main-page-content h3 a{
   color: silver;
   background-color: rgb(220,20,60);
-  padding: 3px;
+  font-size: 80%;
+  padding: 5px;
   border-radius: 5px;
   text-decoration: none;
 }
 .main-page-content h3 a:hover{
-  background-color: rgba(220,20,60, 70%);
+  color: papayawhip;
+  background-color: rgba(220,20,60,70%);
+  font-size: 80%;
+  padding: 5px;
   outline: none;
   text-decoration: none;
+  display: inline-block;
 }
 
 /*About me
