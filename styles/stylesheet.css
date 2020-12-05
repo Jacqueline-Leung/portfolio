@@ -21,7 +21,7 @@ footer p{
 }
 #page-title{
   font-size: 80px;
-  font-family: 'Italianno', cursive;
+  font-family: 'El Messiri', sans-serif;
   display: block;
   margin-top:0;
   margin-bottom: 0;
@@ -32,44 +32,45 @@ footer p{
 }
 h1{
   color: #F8F9C4;
-  font-family: 'Playfair Display', serif;
+  font-family: 'El Messiri', sans-serif;
   font-size: 180%;
   font-weight: bold;
 }
 h2{
   color:maroon;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Philosopher', sans-serif;
   font-size: 160%;
   font-weight: bolder;
 }
 h3{
   color: darkolivegreen;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Tenor Sans', sans-serif;
   font-size: 140%;
 }
 .intro h3{
   color: lightgreen;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Tenor Sans', sans-serif;
   font-size: 140%;
 }
 h4{
   color: darkmagenta;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Tenor Sans', sans-serif;
   font-size: 120%;
 }
 p{
   color: darkkhaki;
-  font-family: 'EB Garamond', serif;
+  font-family: 'Assistant', sans-serif;
   font-size: 110%;
 }
 li{
   color: midnightblue;
-  font-family: 'EB Garamond', serif;
+  font-family: 'Assistant', sans-serif;
   font-size: 100%;
 }
 footer p{
-  font-family: 'Italianno', cursive;
-  font-size: 160%;
+  font-family: 'Assistant', sans-serif;
+  font-size: 110%;
+  margin-left: 50px;
 }
 aside{
   margin: 0;
@@ -77,21 +78,24 @@ aside{
 }
 a{
   color: gold;
-  font-family: 'EB Garamond', serif;
+  font-family: 'Assistant', sans-serif;
   font-size: 110%;
 }
 a:hover{
   color: white;
+  font-family: 'Assistant', sans-serif;
   font-size: 110%;
 }
 a:active{
   color: darkorange;
+  font-family: 'Assistant', sans-serif;
   font-size: 110%;
 }
-a:focus{
+/*a:focus{
   outline: 2px solid limegreen;
+  font-family: 'Assistant', sans-serif;
   font-size: 110%;
-}
+}*/
 img{
   border: 2px solid rgb(255, 255, 153);
   width: 30%;
@@ -99,16 +103,16 @@ img{
 .fab{
   color: darkmagenta;
   font-size: 60px;
-  padding-top:15px;
-  padding-left: 15px;
+  padding-top:10px;
+  padding-left: 10px;
   padding-bottom: 0;
   padding-right: 0;
 }
 .fab:hover {
   color: darkorange;
   font-size: 60px;
-  padding-top:15px;
-  padding-left: 15px;
+  padding-top:10px;
+  padding-left: 10px;
   padding-bottom: 0;
   padding-right: 0;
 }
@@ -133,6 +137,7 @@ img{
 .main-page-content h3 a{
   color: silver;
   background-color: rgb(220,20,60);
+  font-family: 'Assistant', sans-serif;
   font-size: 80%;
   padding: 5px;
   border-radius: 5px;
@@ -141,6 +146,7 @@ img{
 .main-page-content h3 a:hover{
   color: papayawhip;
   background-color: rgba(220,20,60,70%);
+  font-family: 'Assistant', sans-serif;
   font-size: 80%;
   padding: 5px;
   outline: none;
@@ -160,11 +166,7 @@ img{
 /*About me
 ...................................*/
 .far{
-  color: white;
-  font-size: 30px;
-}
-.far:hover {
-  color: red;
+  color: limegreen;
   font-size: 30px;
 }
 
@@ -184,10 +186,6 @@ p .bible{
   color: papayawhip;
 }
 .fas{
-  color: silver;
-  font-size: 30px;
-}
-.fas:hover {
-  color: yellow;
+  color: limegreen;
   font-size: 30px;
 }
