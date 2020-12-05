@@ -6,7 +6,7 @@ body{
 }
 header{
   background-color: darkcyan;
-  padding: 10px;
+  padding: 0;
   }
 section{
   background-color: mistyrose;
@@ -25,9 +25,9 @@ footer p{
   display: inline-block;
   margin-top:0;
   margin-bottom: 0;
-  margin-left: 25%;
-  margin-right: 25%;
-  padding: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 30px;
 }
 h1{
   color: #F8F9C4;
@@ -94,6 +94,14 @@ a:focus{
 img{
   border: 2px solid rgb(255, 255, 153);
   width: 20%;
+}
+.fab{
+  color: darkmagenta;
+  font-size: 60px;
+}
+.fab:hover {
+  color: darkorange;
+  font-size: 60px;
 }
 
 /*Home page main content
