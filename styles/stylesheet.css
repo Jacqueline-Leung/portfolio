@@ -1,4 +1,10 @@
 /* Global styles...........*/
+html{
+  box-sizing: border-box;
+}
+*, *:before, *:after{
+  box-sizing: inherit;
+}
 body{
   background: rgb(153, 51, 102);
   margin: 0;
@@ -19,9 +25,11 @@ footer{
 footer p{
   color:maroon;
 }
-#page-title{
+h1{
   font-size: 80px;
   font-family: 'El Messiri', sans-serif;
+  font-weight: bold;
+  color: #F8F9C4;
   display: block;
   margin-top:0;
   margin-bottom: 0;
@@ -30,25 +38,21 @@ footer p{
   padding-bottom: 0;
   text-align: center;
 }
-h1{
-  color: #F8F9C4;
-  font-family: 'El Messiri', sans-serif;
-  font-size: 180%;
-  font-weight: bold;
-}
 h2{
-  color:maroon;
+  color: red;
   font-family: 'Philosopher', sans-serif;
   font-size: 160%;
   font-weight: bolder;
 }
+.intro h2{
+  color: papayawhip;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 160%;
+  font-weight: bolder;
+}
+
 h3{
   color: darkolivegreen;
-  font-family: 'Tenor Sans', sans-serif;
-  font-size: 140%;
-}
-.intro h3{
-  color: lightgreen;
   font-family: 'Tenor Sans', sans-serif;
   font-size: 140%;
 }
@@ -122,7 +126,7 @@ img{
 .nav-container{
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .nav-item{
@@ -155,16 +159,6 @@ img{
   text-decoration: none;
   display: inline-block;
 }
-.main-page-content-wrap{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-}
-.main-page-item{
-  padding: 0 25px;
-}
-
 /*About me
 ...................................*/
 .far{
@@ -174,9 +168,6 @@ img{
 
 /*Semantic elements
 -----------------------------------*/
-.intro h2{
-  color: honeydew;
-}
 .serving-ideas{
   color: darkcyan;
 }
