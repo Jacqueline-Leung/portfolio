@@ -172,7 +172,12 @@ img{
 /*Semantic elements
 -----------------------------------*/
 .serving-ideas{
+  display: inline-block;
   color: darkcyan;
+  transition: border 4s ease-out 1s;
+}
+.serving-ideas:hover{
+  border: 4px solid limegreen;
 }
 .bible{
   background-color: darksalmon;
