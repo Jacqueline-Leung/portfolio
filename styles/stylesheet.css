@@ -196,3 +196,40 @@ li:nth-child(odd){
 li:nth-child(even){
   color: red;
 }
+/*Contact form
+-----------------------------------*/
+form{
+  background-color: mistyrose;
+  box-sizing: border-box;
+  padding-top: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+}
+label, legend{
+  color: darkolivegreen;
+  font-family: 'Tenor Sans', sans-serif;
+  font-size: 140%;
+  display: block;
+  margin: 1rem;
+}
+input, textarea{
+  color: #001a33;
+  font-family: 'Assistant', sans-serif;
+  font-size: 110%;
+  display: block;
+  margin: 1rem;
+  border-radius: 10px;
+}
+input[type=text], input[type=email]{
+  width: 60%;
+}
+input[type=submit]{
+  background-color: darkmagenta;
+  color: silver;
+  width: 75%;
+  border-radius: 10px;
+}
+fieldset{
+  border: none;
+}
