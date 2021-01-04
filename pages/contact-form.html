@@ -22,16 +22,18 @@
     </header>
 
     <form method="GET">
-      <label>Your name:
+      <label>1. Your name:
         <input type="text" name="requesterName">
       </label>
+      <br><br>
 
-      <label>Your email:
+      <label>2. Your email:
         <input type="email" name="requesterEmail">
       </label>
+      <br><br>
 
       <fieldset>
-        <legend>Do you like Scandinavian food?</legend>
+        <legend>3. Do you like Scandinavian food?</legend>
         <label>
           <input type="radio" name="scandinavian" value="yes">
           Yes
@@ -42,9 +44,10 @@
           No
         </label>
       </fieldset>
+      <br><br>
 
       <fieldset>
-        <legend>What type of food you would like to receive recipes for? Choose all that apply.</legend>
+        <legend>4. What type of food you would like to receive recipes for? Choose all that apply.</legend>
         <label>
           <input type="checkbox" name="foodType" value="breakfast">
           Breakfast
@@ -65,10 +68,12 @@
           Dessert
         </label>
       </fieldset>
+      <br><br>
 
-      <label>Comments:
+      <label>5. Comments:
         <textarea name="comments" rows="8" cols="60"></textarea>
       </label>
+      <br><br>
 
       <input type="submit" value="submit">
     </form>

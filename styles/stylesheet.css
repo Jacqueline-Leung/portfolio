@@ -200,6 +200,7 @@ li:nth-child(even){
 -----------------------------------*/
 form{
   background-color: mistyrose;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding-top: 5%;
   padding-left: 15%;
@@ -220,6 +221,7 @@ input, textarea{
   display: block;
   margin: 1rem;
   border-radius: 10px;
+  background-color: rgb(252, 254, 253);
 }
 input[type=text], input[type=email]{
   width: 60%;
@@ -229,6 +231,9 @@ input[type=submit]{
   color: silver;
   width: 75%;
   border-radius: 10px;
+}
+input:invalid{
+  border: 2px solid red;
 }
 fieldset{
   border: none;
