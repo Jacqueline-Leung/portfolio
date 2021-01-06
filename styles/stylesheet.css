@@ -212,16 +212,26 @@ label, legend{
   font-family: 'Tenor Sans', sans-serif;
   font-size: 140%;
   display: block;
-  margin: 1rem;
+  margin-top: 0.7rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+}
+legend{
+  margin-left: -0.1rem;
 }
 input, textarea{
   color: #001a33;
   font-family: 'Assistant', sans-serif;
   font-size: 110%;
   display: block;
-  margin: 1rem;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+  margin-right: 1rem;
   border-radius: 10px;
   background-color: rgb(252, 254, 253);
+  cursor: pointer;
 }
 input[type=text], input[type=email]{
   width: 60%;
